@@ -1,0 +1,14 @@
+[server]
+name = "weeklyReportMCPServer"
+module = "weekly_report_server"
+class = "mcp"
+instance = "mcp"
+
+[server.config]
+host = "127.0.0.1"
+port = 8001
+
+[tool.write_weekly_report]
+description = "Write a weekly report to a text file in the reports directory"
+module = "weekly_report_server"
+function = "write_weekly_report"
