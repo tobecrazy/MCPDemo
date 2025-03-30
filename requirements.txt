@@ -1,0 +1,7 @@
+fastmcp==0.4.1
+uvicorn>=0.15.0
+python-multipart>=0.0.5 
+fastapi>=0.95.0
+fastapi-utils>=0.2.1
+fastapi-socketio>=0.0.7
+python-socketio>=5.7.2
